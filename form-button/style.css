@@ -1,0 +1,27 @@
+input, button {
+    display: block;
+    height: 32px;
+    font-size: 100%;
+    margin-top: 1rem;
+}
+
+
+label {
+    font-size: 2rem;
+}
+
+.error {
+    margin-top: 1rem;
+    width: 200px;
+    height: 100px;
+    background-color: #e74c3c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.error:not([data-active]) {
+    display: none;
+}
